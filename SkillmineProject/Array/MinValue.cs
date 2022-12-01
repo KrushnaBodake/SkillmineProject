@@ -62,4 +62,49 @@ namespace SkillmineProject.Array
 
         }
     }
+    class FrequencyOfElemeny
+    {
+       /* static void Main(string[]args)
+        {
+            int[] arr = new int[7];
+            Console.WriteLine("Enter the number");
+
+            for(int i=0; i<arr.Length; i++)
+            {
+                arr[i] = Convert.ToInt32(Console.ReadLine());     
+            }*//*
+        }*/
+
+        static void Freq (int[]arr, int n)
+        {
+            bool[] visited = new bool[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                if (visited[i] == true)
+
+                    continue;
+
+                int count = 1;
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        visited[j] = true;
+                        count++;
+                    }
+                }
+                Console.WriteLine(arr[i] + count);
+            }
+        }
+        static void Main(string[] args)
+        {
+            int[] arr = new int[] { 10, 20, 10, 20, 20, 10, 3, 20 };
+            int n = arr.Length;
+            Freq(arr, n);
+        }
+
+    }
+   
+
 }
