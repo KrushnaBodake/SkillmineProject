@@ -6,23 +6,40 @@ namespace SkillmineProject.Looping
 {
     class DisariumNumber
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("enter the no");
+            Console.WriteLine("Enter Number");
             int num = int.Parse(Console.ReadLine());
-            int temp = num;
+            int original = num;
             int count = 0;
-            int power = 1;
-          /*  for(int )
+            int sum = 0;
+            while (num > 0)
             {
-                
-                int digit = num % 10;
                 num = num / 10;
                 count++;
-                int dis = digit * num;
-                Console.WriteLine(dis);
-                
-            }*/
+            }
+            num = original;
+            while (num > 0)
+            {
+                int power = 1;
+                int r = num % 10;
+                for (int i = 1; i <= count; i++)
+                {
+                    power = power * r;
+                }
+                sum = sum + power;
+                count--;
+                num = num / 10;
+            }
+            if (original == sum)
+            {
+                Console.WriteLine("Disarium Number");
+            }
+            else
+            {
+                Console.WriteLine("Not Disarium Number");
+            }
         }
     }
+    
 }

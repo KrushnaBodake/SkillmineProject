@@ -13,15 +13,15 @@ namespace SkillmineProject.Looping
             while (i <= 10)
             {
                 sum = sum + i;
-              //  i++;
-
+              
                 if (sum==10)
                 {
-                    break;
-                   
+                    break;              
                 }
+                i++;
+                Console.WriteLine(sum);
             }
-            Console.WriteLine(sum);
+           // Console.WriteLine(sum);
            
               
 

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>SkillmineProject.Array.FrequencyOfElemeny</StartupObject>
+	  <StartupObject>SkillmineProject.Array.FrequwncyOfNumber</StartupObject>
   </PropertyGroup>
 
 </Project>

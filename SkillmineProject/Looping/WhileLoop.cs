@@ -14,7 +14,7 @@ namespace SkillmineProject.Looping
 
             int count = 0;
             int i = 1;
-            while(i<=num)
+            while(num>0)
             {
                 num = num / 10;
                 count++;               
@@ -28,7 +28,7 @@ namespace SkillmineProject.Looping
         {
             int sum = 0;
             int i = 1;
-            while(i<=20)
+            while(i<=5)
             {
                 sum = sum + i;
                 i = i + 2;        
