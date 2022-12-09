@@ -23,10 +23,8 @@ namespace SkillmineProject.Looping
         {
             
             int table;
-            int sum = 1;
-            int sum2 = 2;
-            int sum3 = 3;
-
+            int sum =2;
+           
             for (int i = 1; i <= 10; i++)
             {
                 table = (sum * i);

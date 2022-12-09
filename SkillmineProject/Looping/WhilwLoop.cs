@@ -103,7 +103,8 @@ namespace SkillmineProject.Looping
         {
             Console.WriteLine("Enter The Number");
             int num = int.Parse(Console.ReadLine());
-            int temp = num;
+            int temp ;
+            temp=num;
             int sum = 0;
             while (num > 0)
             {
@@ -111,8 +112,8 @@ namespace SkillmineProject.Looping
                 sum = sum + (digit * digit * digit);
                 num = num / 10;
             }
-            temp = num;
-            if (num == sum)
+           
+            if (temp == sum)
             {
                 Console.WriteLine("no is armstrong");
             }

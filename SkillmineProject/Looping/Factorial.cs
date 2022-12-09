@@ -34,8 +34,9 @@ namespace SkillmineProject.Looping
                 {
                     sum = sum + i; 
                 }
-                Console.WriteLine(sum);
+               // Console.WriteLine(sum);
             }
+            Console.WriteLine(sum);
         }
     }
 }
