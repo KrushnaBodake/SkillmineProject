@@ -355,7 +355,7 @@ namespace SkillmineProject.Pattern
 
 
         }
-    }
+        }
     class Pattern22
     {
         public void Patter(int[,] a)
