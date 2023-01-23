@@ -7,7 +7,7 @@ namespace SkillmineProject.ConditionalSentences
     class ifelse
     {
      static void Main(string[]args)
-        {
+     {
             int num;
             Console.WriteLine("Enter Number");
             num = int.Parse(Console.ReadLine());
@@ -19,6 +19,6 @@ namespace SkillmineProject.ConditionalSentences
             {
                 Console.WriteLine("No is Odd");
             }
-        }
+     }
     }
 }

@@ -11,6 +11,7 @@ namespace SkillmineProject.BasicOpps
         int acbalance;
         string customername;
 
+
         public int AccountNo
         {
             set

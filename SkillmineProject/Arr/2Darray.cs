@@ -133,11 +133,12 @@ namespace SkillmineProject.Array
         }
         static void Main(string[] args)
         {
-            int[,] a = { {2,3,5},
+            /*int[,] a = { {2,3,5},
                          {4,6,7},
-                         {7,6,3} };
+                         {7,6,3} };*/
             Pattern1 s = new Pattern1();
             char[,] arr1 = new char[4, 4];
+            
             s.Pattern(arr1);
 
             
@@ -361,6 +362,7 @@ namespace SkillmineProject.Array
                 {
                     s =s+ i;
                     c++;
+                    Console.WriteLine(i);
                 }
             }
             Console.WriteLine(s / c); 
@@ -447,6 +449,29 @@ namespace SkillmineProject.Array
                 Console.WriteLine("Merge array" + merge[a]);
             }
             Console.ReadKey();
+        }
+    }
+    public class Prime
+    {
+        static void Main(string[] args)
+        {
+            int num = 3;
+            int count = 0;
+           
+                for (int j = 2; j <num; j++)
+                {
+                    if(num%j==0)
+                    {
+                        count++;
+                        break; 
+                    }
+                }
+                if (count == 0)
+                {
+                   Console.WriteLine("prime");
+
+                }
+
         }
     }
 }

@@ -24,7 +24,7 @@ namespace SkillmineProject.ConditionalSentences
                     Console.WriteLine(" Number 3 is Largest");
                 }
             }
-                else if (num2 > num3)
+            else if (num2 > num3)
             {
                 Console.WriteLine("Number 2 is Largest");
             }   

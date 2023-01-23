@@ -13,7 +13,7 @@ namespace SkillmineProject.Array
             for(int i=0; i<n; i++)
             {
                 if (i % 2 == 0)
-                    even += arr[i];
+                    even =even+ arr[i];
             }
             Console.WriteLine(even);
         }

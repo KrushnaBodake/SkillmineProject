@@ -30,8 +30,12 @@ namespace SkillmineProject.Looping
             int i = 1;
             while(i<=5)
             {
-                sum = sum + i;
-                i = i + 2;        
+              
+                if (i%2!=0)
+                {
+                    sum = sum + i;                   
+                }
+                i++;
             }
             Console.WriteLine(sum);
         }

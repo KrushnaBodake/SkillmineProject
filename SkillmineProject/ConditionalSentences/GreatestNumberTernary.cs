@@ -15,7 +15,10 @@ namespace SkillmineProject.ConditionalSentences
             Console.WriteLine("Enter Number 3");
             int num3 = int.Parse(Console.ReadLine());
 
-          /*  String ans = (num1 > num2) ? ("num1 is Greatest") : (num1 > num3) ? ("num1 is Greatest") : (num2 > num3) ? ("Num2 is Greatest") : ("Num3 is Greatest");
+          /*  String ans = (num1 > num2) ? ("num1 is Greatest") : (num1 > num3) ? ("num1 is Greatest") :
+           *               (num2 > num3) ? ("Num2 is Greatest") : ("Num3 is Greatest");
+           *               
+           *               
             Console.WriteLine(ans);*/
 
             int g = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);

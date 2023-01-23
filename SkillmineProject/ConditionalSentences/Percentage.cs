@@ -26,20 +26,17 @@ namespace SkillmineProject.ConditionalSentences
             {
                 Console.WriteLine("Grade is Distinction");
             }
-            else if (per > 60 && per > 70) 
+            else if (per > 60 && per < 70) 
             {
                 Console.WriteLine("Grade Is first Class");
-
             }
             else if(per>50 && per<60)
             {
                 Console.WriteLine("Grade is Second Class");
-
             }
             else
             {
                 Console.WriteLine("You Are Fail");
-
             }
 
 

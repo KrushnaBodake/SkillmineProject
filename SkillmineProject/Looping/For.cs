@@ -35,21 +35,20 @@ namespace SkillmineProject.Looping
                  Console.WriteLine(i);
              }*/
 
-            /* int i;
-             int ans;
-             for (i=1;i<=5;)
+            /* int i;                    // loop never end   hi print unlimited time      
+             for (i = 1; i <= 5;)
              {
                  Console.WriteLine("hi");
              }*/
 
-            
-            /*int ans;
-            for (int i=1; ; i++)
+
+
+            /*for (int i=1; ; i++)
             {
                 Console.WriteLine(i);
             }*/
 
-            for(; ; )
+            for (; ; )
             {
                 Console.WriteLine("hi");
             }

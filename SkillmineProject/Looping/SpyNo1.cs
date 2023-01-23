@@ -37,7 +37,9 @@ namespace SkillmineProject.Looping
             Console.WriteLine("Enter the given no");
             int num = int.Parse(Console.ReadLine());
             int i = 0;
-            while (i<num)
+            
+
+            while (i < num)
             {
                 int digit = (num * num * num) % 10;
 
@@ -53,6 +55,31 @@ namespace SkillmineProject.Looping
 
             }
 
+        }
+    }
+    class Trimorphicno1
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the given no");
+            int num = int.Parse(Console.ReadLine());
+            
+            int power = 1;
+            for (int i = 0; i <= 3; i++)
+            {
+
+                power = power * num;
+                power = power % 10;
+            }
+            if (power == num)
+            {
+                Console.WriteLine("Number is Trimorphic");
+            }
+            else
+            {
+                Console.WriteLine("Number is not Trimorphic");
+            }
+            
         }
     }
 }

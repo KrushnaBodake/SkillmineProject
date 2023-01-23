@@ -23,11 +23,11 @@ namespace SkillmineProject.Looping
         {
             
             int table;
-            int sum =2;
+            int tableno =2;
            
             for (int i = 1; i <= 10; i++)
             {
-                table = (sum * i);
+                table = (tableno * i);
                 Console.WriteLine(table);
             }
 

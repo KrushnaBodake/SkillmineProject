@@ -16,9 +16,9 @@ namespace SkillmineProject.ConditionalSentences
                     Console.WriteLine("year is leap Year");
                 }
                 else
-            {
+                {
                 Console.WriteLine("year is not Leap year");
-            }
+                }
                 
             
         }
